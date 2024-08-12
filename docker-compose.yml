@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  www:
+    image: php:8.2.7
+    volumes:
+      - .:/app
+    working_dir: /app
+    networks:
+      - default
+    command: bash -c "php cron.php"
