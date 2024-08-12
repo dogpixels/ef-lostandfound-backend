@@ -1,6 +1,6 @@
 # Eurofurence Lost & Found Page Backend
 
-Backend of the Eurofurence Nosecounter 2025+
+Backend of http://www.eurofurence.org/EFxx/lostandfound
 
 ## Cronjob Setup
 Run `cron.php`: every 15 minutes during convention time, and once a day throughout the rest of the year.
